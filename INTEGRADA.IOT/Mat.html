@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Aprendizado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Fundo principal escuro */
+            color: #e0e0e0; /* Texto claro para contraste */
+        }
+
+        header {
+            background: #1e1e1e; /* Fundo do cabeçalho */
+            color: #ffffff; /* Texto claro */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #53098f; /* Azul suave */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1100px;
+            margin: auto;
+            background: #000000; /* Fundo escuro para contraste com o corpo */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #333; /* Bordas escuras */
+            border-radius: 5px;
+            background-color: #2a2a2a; /* Fundo ainda mais escuro para contraste */
+        }
+
+        h2, h3, h4, h5 {
+            color: #ffffff; /* Azul claro para destaque dos títulos */
+        }
+
+        h3 {
+            margin-top: 15px;
+            color: #e0e0e0;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #1e1e1e;
+            color: #b0b0b0; /* Cinza claro */
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilo para as imagens */
+        .task-image, img {
+            width: 300px; /* Aumentado o tamanho da imagem */
+            height: 300px; /* Aumentado o tamanho da imagem */
+            border-radius: 15px;
+            object-fit: cover;
+            display: block;
+            margin: 20px auto; /* Centraliza e ajusta o espaço ao redor */
+            box-sizing: border-box;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Estilo para o contêiner das imagens lado a lado */
+        .images-container {
+            display: flex;
+            flex-direction: column; /* Garante que as imagens fiquem uma abaixo da outra */
+            align-items: center; /* Centraliza as imagens */
+            gap: 20px; /* Espaçamento entre os itens */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Meu Site de Aprendizado</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Ciências Humanas</a></li>
+            <li><a href="#">Ciências da Natureza</a></li>
+            <li><a href="#">Linguagens</a></li>
+            <li><a href="#">Matemática</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Linguagens</h1>
+
+    <!-- Contêiner para as imagens lado a lado -->
+    <div class="images-container">
+        <!-- Seção Matemática -->
+        <div class="image-box">
+            <img src="./INTEGRADA.IOT/FOTOS/Vivo pra ser feliz, não vivo pra ser comum_.jfif" alt="Sociologia" class="task-image">
+            <h2>Matemática</h2>
+            <p>Professor Clóvis</p>
+        </div>
+    </div>
+</main>
+<div class="images-container">
+    <h3>Primeira tarefa favorita:</h3>
+    <img src="./INTEGRADA.IOT/FOTOS/Capturaraamatttt.PNG" alt="Primeira tarefa favorita">
+    <h4>Segunda tarefa favorita:</h4>
+    <img src="./INTEGRADA.IOT/FOTOS/Capturarmaterr.PNG" alt="Segunda tarefa favorita">
+</div>
+
+<footer>
+    <p>&copy; 2024 Meu Site de Aprendizado. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>

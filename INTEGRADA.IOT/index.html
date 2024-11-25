@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Aprendizado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #7115e9;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        h3 {
+            margin-top: 15px;
+            color: #333;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #621496;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilo para a foto de perfil */
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px auto;
+            display: block;
+        }
+
+        /* Estilo para o contêiner das imagens lado a lado */
+        .images-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;  /* Espaçamento entre as imagens */
+        }
+
+        /* Estilo para as imagens */
+        .task-image {
+            width: 200px;  /* Ajuste o tamanho conforme necessário */
+            height: 200px; /* Ajuste o tamanho conforme necessário */
+            border-radius: 15px;
+            object-fit: cover;
+            box-sizing: border-box; /* Para garantir que o padding não altere o tamanho */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar as imagens */
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Esse é o meu perfil do ROCK!</h1>
+    <nav>
+        <ul>
+            <li><a href="./CHS.html">Ciências Humanas</a></li>
+            <li><a href="./CNT.html">Ciências da Natureza</a></li>
+            <li><a href="./Linguagens.html">Linguagens e Códigos</a></li>
+            <li><a href="./Mat.html">Matemática</a></li>
+            <li><a href="./IOT.html">IOT</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="pagina-pessoal">
+        <!-- Foto de Perfil -->
+        <img src="./INTEGRADA.IOT/FOTOS/IMG-20240821-WA0053.jpg" alt="Foto de Perfil" class="profile-image">
+
+        <h2>Sobre Mim</h2>
+        <p>Nome: Nicollas Gael Alves Rodrigues </p>
+        <p>Interesses: Quero me formar em direito na faculdade e me tornar um delegado. Também quero ter um Beagle e morar no Havaí ou no México.</p>
+        <p>Hobbies: Curto cozinhar, faço SLAM e gosto de jogar vôlei.</p>
+        <p>Reflexão sobre o ensino médio: Meu ensino médio foi um tanto quanto agitado, cheio de coisas novas, pessoas e vivências que eu nunca pensei que eu viveria. Faltam duas semanas para acabar o ensino médio e isso me deixa um pouco tenso, porém, estou feliz com os resultados.</p>
+    </section>
+
+    <section id="pagina-pessoal">
+        <h2>Tarefas Favoritas</h2>
+        <ul>
+            <li>Eu gosto das atividades práticas. Como a montagem do carrinho, e a nossa produção da lixeira automática.</li>
+        </ul>
+        
+        <!-- Contêiner para as imagens lado a lado -->
+        <div class="images-container">
+            <img src="./INTEGRADA.IOT/FOTOS/Mídia.jfif" alt="Imagem de Tarefa Favorita" class="task-image">
+            <img src="./INTEGRADA.IOT/FOTOS/imagem.png" alt="Outra Tarefa Favorita" class="task-image">
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Meu Site de Aprendizado. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
