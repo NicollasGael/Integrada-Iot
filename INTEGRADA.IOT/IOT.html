@@ -1,12 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meu Site de Aprendizado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Fundo principal escuro */
+            color: #e0e0e0; /* Texto claro para contraste */
+        }
+
+        header {
+            background: #1e1e1e; /* Fundo do cabeçalho */
+            color: #ffffff; /* Texto claro */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #53098f; /* Azul suave */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1100px;
+            margin: auto;
+            background: #000000; /* Fundo escuro para contraste com o corpo */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #333; /* Bordas escuras */
+            border-radius: 5px;
+            background-color: #2a2a2a; /* Fundo ainda mais escuro para contraste */
+        }
+
+        h2, h3, h4, h5 {
+            color: #ffffff; /* Azul claro para destaque dos títulos */
+        }
+
+        h3 {
+            margin-top: 15px;
+            color: #e0e0e0;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #1e1e1e;
+            color: #b0b0b0; /* Cinza claro */
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilo para as imagens */
+        .task-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 15px;
+            object-fit: cover;
+            display: block;
+            margin: 10px auto;
+            box-sizing: border-box;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Estilo para o contêiner das imagens lado a lado */
+        .images-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        /* Para ajustar as colunas em telas menores */
+        .image-box {
+            width: 48%;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 768px) {
+            .image-box {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-    
+
+<header>
+    <h1>Meu Site de Aprendizado</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Ciências Humanas</a></li>
+            <li><a href="#">Ciências da Natureza</a></li>
+            <li><a href="#">Linguagens</a></li>
+            <li><a href="#">Matemática</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Internet das coisas- Professor Glauco</h1>
+
+    <!-- Contêiner para as imagens lado a lado -->
+    <div class="images-container">
+        <!-- Seção boné -->
+        <div class="image-box">
+            <img src="./INTEGRADA.IOT/FOTOS/iotbone.PNG" alt="IOT" class="task-image">
+            <h1>Atividade do boné</h1>
+            <p>O boné visa a inclusão de pessoas com deficiência visual, 
+                ele visa a comunicação das luzes ou do som para a pessoa ter um bom entendimento sobre.
+                 Ou seja, a inclusão de pessoas que estão dentro da sociedade como um todo. Além de tudo,
+                 esse boné utiliza da lógica do próprio programa e as medidas em geral, 
+                 como a distância e a luminosidade.
+                  </p>
+        </div>
+        <div class="images-container">
+            <!-- Seção carrinho -->
+            <div class="image-box">
+                <img src="./INTEGRADA.IOT/FOTOS/CARRINHO-01 1.png" alt="IOT" class="task-image">
+                <h2>Atividade do carrinho</h2>
+                <p>Criamos um carrinho automático do zero, e utilizamos diversos materiais
+                    disponibilizados pelo professor. Sendo alguns deles: Placa de arduíno, fios, rodas, uma 
+                    placa que uilizamos como a bse do carrinho, sensores, dentre outras coisas. 
+                </p>
+    </div>
+    <div class="images-container">
+        <!-- Seção lixo automático -->
+        <div class="image-box">
+            <img src="./INTEGRADA.IOT/FOTOS/Mídia.jfif" alt="IOT" class="task-image">
+            <h3>Atividade do lixo automático</h3>
+            <p> Nessa última atividade construimos um lixo automático do zero.
+                Ele basicamente abria com sons como palma e assobio, ou quando alguém chega perto 
+                ou algo do tipo. Ele basicamente facilita e diminui o tempo de uso, tornando assim
+                a atividade mais prática.
+            </p>
+        </div>
+        <div class="images-container">
+            <!-- Seção piano luminoso -->
+            <div class="image-box">
+                <img src="./INTEGRADA.IOT/FOTOS/piano.PNG" alt="IOT" class="task-image">
+                <h4>Atividade do piano luminoso</h4>
+                <p> Nessa última atividade fizemos a montagem de um piano luminoso, onde
+                    utilizamos de uma placa, alguns fios, leds,dentre outras coisas que ajudaram não só
+                    no som, como na luminosidade também.
+                </p>
+                <div class="vídeos-container">
+                    <!-- Seção vídeos dos projetos -->
+                    <div class="vídeos-box">
+                        <h5>Segue alguns vídeos dos projetos feitos em sala.</h5>
+                     <iframe src="./INTEGRADA.IOT/VÍDEOS/MicrosoftTeams-video.mp4" frameborder="0"></iframe>
+                     <iframe src="./INTEGRADA.IOT/VÍDEOS/VID-20241124-WA0128.mp4" frameborder="0"></iframe>
+                    </main>
+<div class="images-container">
+    <h3>Primeira tarefa favorta: <img src="./INTEGRADA.IOT/FOTOS/popopo.PNG" alt="">
+        <h4>Segunda tarefa favorta: <img src="./INTEGRADA.IOT/FOTOS/Capturar123.PNG" alt="">
+            <p>
+            </p>
+    </h3>
+
+</div>
+
+
+<footer>
+    <p>&copy; 2024 Meu Site de Aprendizado. Todos os direitos reservados.</p>
+</footer>
+
 </body>
 </html>
-
